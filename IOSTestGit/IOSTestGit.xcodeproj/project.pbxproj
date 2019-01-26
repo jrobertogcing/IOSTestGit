@@ -15,6 +15,7 @@
 		8868A7E921F8C51300A6F5C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8868A7E721F8C51300A6F5C1 /* LaunchScreen.storyboard */; };
 		8868A7F421F8C51400A6F5C1 /* IOSTestGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8868A7F321F8C51400A6F5C1 /* IOSTestGitTests.swift */; };
 		8868A7FF21F8C51400A6F5C1 /* IOSTestGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8868A7FE21F8C51400A6F5C1 /* IOSTestGitUITests.swift */; };
+		88F0CBC221FADC6A00E84120 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F0CBC121FADC6A00E84120 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8868A7FA21F8C51400A6F5C1 /* IOSTestGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSTestGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8868A7FE21F8C51400A6F5C1 /* IOSTestGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTestGitUITests.swift; sourceTree = "<group>"; };
 		8868A80021F8C51400A6F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F0CBC121FADC6A00E84120 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8868A7DB21F8C51000A6F5C1 /* AppDelegate.swift */,
 				8868A7DD21F8C51000A6F5C1 /* ViewController.swift */,
 				8868A7DF21F8C51000A6F5C1 /* Main.storyboard */,
+				88F0CBC121FADC6A00E84120 /* SecondViewController.swift */,
 				8868A7E521F8C51300A6F5C1 /* Assets.xcassets */,
 				8868A7E721F8C51300A6F5C1 /* LaunchScreen.storyboard */,
 				8868A7EA21F8C51300A6F5C1 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F0CBC221FADC6A00E84120 /* SecondViewController.swift in Sources */,
 				8868A7DE21F8C51000A6F5C1 /* ViewController.swift in Sources */,
 				8868A7E421F8C51000A6F5C1 /* IOSTestGit.xcdatamodeld in Sources */,
 				8868A7DC21F8C51000A6F5C1 /* AppDelegate.swift in Sources */,
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KAGQ44QH8;
 				INFOPLIST_FILE = IOSTestGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KAGQ44QH8;
 				INFOPLIST_FILE = IOSTestGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

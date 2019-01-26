@@ -8,13 +8,39 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+
+
+class ViewController: UIViewController, SideSelectionDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func seleccionarActionButton(_ sender: UIButton) {
+        
+        let secondVC = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        
+        //Delegation
+        secondVC.selectionDelegate = self
+        
+        present(secondVC, animated: true, completion:  nil)
+        
+    }
+    
+    
+    func didTapChoice(color: UIColor) {
+        
+        view.backgroundColor = color
+    }
+    
+    
 }
 
+//extension ViewController: SideSelectionDelegate {
+//    func didTapChoice(color: UIColor) {
+//
+//        view.backgroundColor = color
+//    }
+//
+//}
